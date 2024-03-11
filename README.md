@@ -10,10 +10,15 @@ The dataset used for this analysis contains information about life expectancy, G
 
 
 Country
+
 Year
+
 Life Expectancy
+
 GDP
+
 BMI
+
 Status (Developed/Developing)
 
 Data Cleaning
