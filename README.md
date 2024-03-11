@@ -46,7 +46,3 @@ The analysis yielded significant findings:
 - Developed countries tend to have higher life expectancies compared to developing countries, reflecting disparities.
 - Lower BMI is associated with higher average life expectancy, an insightful observation from the data.
 - The impact of adult mortality on life expectancy trends was analyzed, providing valuable insights into the factors affecting life expectancy.
-
-This project not only offers insights into global life expectancy trends but also showcases the power of data analysis in uncovering meaningful patterns and correlations.
-
-You can explore the detailed analysis and visualizations in the Jupyter Notebook within this repository.
