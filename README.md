@@ -1,21 +1,31 @@
-World Life Expectancy Analysis 🌍
-
-Welcome to the World Life Expectancy Analysis project! In this project, we dive into the fascinating world of global life expectancy trends. Have you ever wondered how factors like GDP, BMI, and health standards impact how long people live in different countries? Let's find out together!
-
+World Life Expectancy Analysis
 Project Overview
-What is this project about?
-This project aims to explore and analyze life expectancy trends across various countries around the world. By delving into the data, we uncover interesting insights into how different factors contribute to the life expectancy of populations.
+This project focuses on analyzing global life expectancy trends using a dataset containing information about life expectancy, GDP, BMI, and other key factors across different countries and years. The goal was to uncover insights into how these factors correlate with life expectancy and to visualize these trends for better understanding.
 
-What are we exploring?
-Data Cleaning: We begin by ensuring our data is squeaky clean, removing duplicates and correcting any missing values to get a reliable dataset.
+Dataset
+The dataset used for this analysis contains information about life expectancy, GDP, BMI, and other variables for various countries over multiple years. It was sourced from DataHub and includes data points such as:
 
-Data Analysis: Using SQL queries, we dig into the data to uncover patterns and correlations. We're particularly interested in how GDP, BMI, and other factors relate to life expectancy.
-
-Visualization: Numbers are great, but visuals tell a story. We create captivating graphs and charts to showcase our findings in an easy-to-understand way.
-
-Key Findings
-GDP vs. Life Expectancy: We observed a clear correlation between a country's GDP and the life expectancy of its citizens.
-
-BMI Impact: Countries with higher average BMI tend to have lower life expectancies, indicating a potential health trend.
-
-Developed vs. Developing: Uncovering differences in life expectancy between developed and developing nations sheds light on global health disparities.
+Country
+Year
+Life Expectancy
+GDP
+BMI
+Status (Developed/Developing)
+Data Cleaning
+Identified and removed duplicate entries based on country and year to ensure data integrity.
+Corrected missing values in the 'Status' column by comparing with neighboring years' data.
+Filled in missing 'Life Expectancy' values by averaging data from adjacent years.
+Ensured consistency and accuracy of the dataset for analysis.
+Data Exploration
+Calculated the difference in life expectancy over 15 years for each country to understand trends.
+Explored the average life expectancy of countries over the years to identify patterns.
+Investigated the relationship between average life expectancy and GDP, highlighting correlations.
+Compared life expectancy between countries with high and low GDP to draw comparisons.
+Examined the average life expectancy based on country status (Developed/Developing) to understand disparities.
+Explored the correlation between life expectancy and BMI, revealing interesting insights.
+Analyzed the impact of adult mortality on life expectancy trends through rolling total calculations.
+Results
+Countries with higher GDP tend to have higher average life expectancies, as revealed by the analysis.
+Developed countries generally exhibit higher life expectancies compared to developing countries, showcasing disparities.
+Lower BMI is associated with higher average life expectancy, a significant finding from the data.
+The impact of adult mortality on life expectancy trends was analyzed, providing valuable insights.
