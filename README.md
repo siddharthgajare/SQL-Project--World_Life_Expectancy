@@ -1,4 +1,5 @@
 World Life Expectancy Analysis 🌍
+
 Welcome to the World Life Expectancy Analysis project! In this project, we dive into the fascinating world of global life expectancy trends. Have you ever wondered how factors like GDP, BMI, and health standards impact how long people live in different countries? Let's find out together!
 
 Project Overview
